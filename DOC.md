@@ -1,6 +1,6 @@
 # Medallion 
 
-## 1. Introducción
+## 1. Introducción _
 Este proyecto implementa un pipeline batch diario basado en la arquitectura Medallion (Bronze → Silver → Quality → Gold), orquestado con Apache Airflow y modelado con dbt. Los datos provienen de archivos CSV diarios con transacciones. El objetivo final es construir un data mart confiable, auditable y reproducible.
 
 ## 2. Flujo General del Pipeline
