@@ -1,0 +1,8 @@
+medallion_duckdb:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /home/rantez/MIA/IngenieriaSoftware/Datos/00_examen/examen_ing_de_sw_n_data_final/warehouse/medallion.duckdb
+      threads: 4
+      extensions: ["parquet"]
