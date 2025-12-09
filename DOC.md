@@ -32,7 +32,8 @@ Responsabilidades:
 - Leer archivo RAW.
 - Convertir amount a numérico.
 - Normalizar status.
-- Eliminar filas inválidas (amount nulo).
+- Eliminar filas inválidas (amount nulo). Esta decision se toma desde el negocio. Nosotros optamos por elminar, se puede transformar el null en 0.0, pero hubo un fallo, se elimna
+  no tenemos reportes de fallos. Se tendria que armar otro sql, no es parte del ejercicio.
 - Guardar la salida limpia como Parquet.
 
 Beneficios:
