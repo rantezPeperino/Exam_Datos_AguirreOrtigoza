@@ -139,7 +139,14 @@ El sistema permite:
 - Reglas de calidad adicionales.
 - Escalar hacia modelos lakehouse.
 
-## 9. Conclusión
+## 9. Mejoras posibles
+Creemos que el proyecto es bastante robusto y escalable en su estado actual, aún así proponemos las siguientes potenciales mejoras: 
+- Almacener archivos en algún servicio de storage en la nube
+- Hostear el DAG de Airflow en algún servicio de cómputo en la nube
+- Paralelizar la ejecución de días pendientes cuando se acumulen transacciones históricas
+- Aprovechar la posibilidad que da Airflow para definir entornos "dev" y "prod" para poder probar cambios (en dev) sin afectar la data productiva (en prod)
+
+## 10. Conclusión
 El proyecto aplica buenas prácticas modernas de ingeniería de datos:
 - Arquitectura Medallion.
 - Orquestación con Airflow.
